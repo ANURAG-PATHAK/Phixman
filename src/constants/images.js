@@ -36,10 +36,12 @@ import more from '../assets/more.png'
 import serviceImage from '../assets/serviceImage.png'
 import payment from '../assets/payment.png'
 import india from '../assets/india.png'
+import crackedBg from '../assets/cracked-bg.png'
 const images = {
     logo,
     payment,
     india,
+    crackedBg,
     serviceImage,
     heroImage,
     oven,

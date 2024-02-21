@@ -30,22 +30,24 @@ const Hero = () => {
           <img src={images.heroImage} alt="Person" />
         </div>
       </Slider>
-      <div className="search-bar">
-        <div className="city-picker">
-          <FaMapMarkerAlt className="Marker" />
-          <select name="cities" id="cities">
-            <option value="delhi">Delhi</option>
-            <option value="delhi">Mumbai</option>
-            <option value="delhi">Lucknow</option>
-            <option value="delhi">Agra</option>
-          </select>
+      <div className="search-bar-container">
+        <div className="search-bar-text">Device Solutions, One Search Away</div>
+        <div className="search-bar">
+          <div className="city-picker">
+            <FaMapMarkerAlt className="Marker" />
+            <select name="cities" id="cities">
+              <option value="delhi">Delhi</option>
+              <option value="delhi">Mumbai</option>
+              <option value="delhi">Lucknow</option>
+              <option value="delhi">Agra</option>
+            </select>
+          </div>
+          <input type="text" placeholder="search service..." />
+          <button className="button-search">
+            <FaSearch /> {""}
+            <span className="search-text"> Go For It </span>
+          </button>
         </div>
-
-        <input type="text" placeholder="search service..." />
-        <button className="button-search">
-          <FaSearch /> {""}
-          <span className="search-text"> Go For It </span>
-        </button>
       </div>
     </div>
   );
