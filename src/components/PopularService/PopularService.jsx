@@ -3,28 +3,28 @@ import "./PopularService.css";
 import { images } from "../../constants";
 
 const ServiceCard = ({ title, price, originalPrice, rating, image }) => (
-  <div className="service-card">
-    <img src={image} alt={title} className="service-image" />
-    <div className="service-info">
-      <div className="service-rating">{rating}</div>
-      <h3 className="service-title">{title}</h3>
-      <div className="service-pricing">
-        <span className="service-price">{price}</span>
-        <span className="service-original-price">{originalPrice}</span>
+  <div className="popular-service-card">
+    <img src={image} alt={title} className="popular-service-image" />
+    <div className="popular-service-info">
+      <div className="popular-service-rating">{rating}</div>
+      <h3 className="popular-service-title">{title}</h3>
+      <div className="popular-service-pricing">
+        <span className="popular-service-price">{price}</span>
+        <span className="popular-service-original-price">{originalPrice}</span>
       </div>
     </div>
   </div>
 );
 
 const PopularService = () => (
-  <div className="services-section">
+  <div className="popular-services-section">
     <h2>Explore Popular Services</h2>
-    <div className="services-tab">
+    <div className="popular-services-tab">
       <button>Phones</button>
       <button>Laptops</button>
       <button>AC</button>
     </div>
-    <div className="service-cards-container">
+    <div className="popular-service-cards-container">
       <ServiceCard
         title="Foam & Power Jet AC Service (Split)"
         price="₹599"

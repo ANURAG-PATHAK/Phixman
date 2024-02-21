@@ -34,15 +34,14 @@
 }
 
 .service-item {
-    width: 220px;
+    width: 150px;
     border: 1px solid #ddd;
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
 }
 
-.service-icon {
-    font-size: 24px;
+.service-image {
     margin-bottom: 15px;
 }
 
