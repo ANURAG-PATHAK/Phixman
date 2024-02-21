@@ -1,0 +1,84 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.testimonial-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #4f4cbb;
+    color: white;
+    padding: 50px;
+}
+
+.testimonial-intro {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.testimonial-title {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.testimonial-description {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.read-more-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.testimonial-slider {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.testimonial-card {
+    background: white;
+    color: #333;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.testimonial-slider {
+    flex: 2;
+    width: 100px;
+}
+
+.testimonial-image {
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.testimonial-image img {
+    width: 100%;
+    display: block;
+}
+
+.testimonial-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.testimonial-content p {
+    font-size: 1em;
+}
+
+.testimonial-rating span {
+    color: #ffd700;
+}
+
+@media (max-width: 1024px) {
+    /* Adjustments for responsiveness */
+}

@@ -6,4 +6,5 @@ import Location from './Location/Location';
 import PopularService from './PopularService/PopularService';
 import AppDownload from './AppDownload/AppDownload';
 import FrequentlyAskedQuestion from './FrequentlyAskedQuestion/FrequentlyAskedQuestion';
-export { Hero, Navbar, Footer, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion };
+import Testimonial from './Testimonial/Testimonial';
+export { Hero, Navbar, Footer, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion, Testimonial };
