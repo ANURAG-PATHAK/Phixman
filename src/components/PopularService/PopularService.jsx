@@ -17,30 +17,39 @@ const ServiceCard = ({ title, price, originalPrice, rating, image }) => (
 );
 
 const PopularService = () => (
-  <div className="popular-services-section">
-    <h2>Explore Popular Services</h2>
-    <div className="popular-services-tab">
-      <button>Phones</button>
-      <button>Laptops</button>
-      <button>AC</button>
+  <div>
+    <div className="popular-services-section">
+      <h2>Explore Popular Services</h2>
+      <div className="popular-services-tab">
+        <button>Phones</button>
+        <button>Laptops</button>
+        <button>AC</button>
+      </div>
+      <div className="popular-service-cards-container">
+        <ServiceCard
+          title="Foam & Power Jet AC Service (Split)"
+          price="₹599"
+          originalPrice="₹699"
+          rating="4.5 (2K)"
+          image={images.ac}
+        />
+        <ServiceCard
+          title="OnePlus 9R 5G - Refurbished"
+          price="₹19,399"
+          originalPrice="₹39,000"
+          rating="4.5 (2K)"
+          image={images.mobile}
+        />
+        <ServiceCard
+          title="Foam & Power Jet AC Service (Split)"
+          price="₹599"
+          originalPrice="₹699"
+          rating="4.5 (2K)"
+          image={images.ac}
+        />
+      </div>
     </div>
-    <div className="popular-service-cards-container">
-      <ServiceCard
-        title="Foam & Power Jet AC Service (Split)"
-        price="₹599"
-        originalPrice="₹699"
-        rating="4.5 (2K)"
-        image={images.ac}
-      />
-      <ServiceCard
-        title="OnePlus 9R 5G - Refurbished"
-        price="₹19,399"
-        originalPrice="₹39,000"
-        rating="4.5 (2K)"
-        image={images.mobile}
-      />
-    </div>
-    <div className="popular-service">
+    <div className="scroller-container">
       <div className="scroller">
         <span className="text-item">Air Conditioner</span>
         <span className="dot-icon">•</span>

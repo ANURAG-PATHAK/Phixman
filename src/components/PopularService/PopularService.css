@@ -55,21 +55,29 @@
     color: #757575;
 }
 
-.popular-service {
-    overflow: hidden;
+
+.scroller-container {
+    width: 100%;
+    padding-top: 25px;
     white-space: nowrap;
+    padding-bottom: 25px;
+    background-color: #F9F6F2;
+    overflow: hidden;
 }
 
-.popular-scroller {
+.scroller {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: inline-block;
-    animation: scroll-text 10s linear infinite;
+    animation: scroll-text 20s ease-in-out infinite;
 }
 
 .text-item {
     display: inline-block;
     margin-left: 50px;
+    font-weight: bold;
     margin-right: 50px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .dot-icon {
