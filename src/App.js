@@ -1,4 +1,4 @@
-import { Hero, Footer, Navbar, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion, Testimonial } from './components';
+import { Hero, Footer, Navbar, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion, Testimonial, ExclusiveStore, Subscribe, Guarantee } from './components';
 import './App.css';
 
 function App() {
@@ -9,6 +9,9 @@ function App() {
       <Service />
       <Location />
       <PopularService />
+      <Guarantee />
+      <Subscribe />
+      <ExclusiveStore />
       <Testimonial />
       <FrequentlyAskedQuestion />
       <AppDownload />

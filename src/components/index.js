@@ -7,4 +7,7 @@ import PopularService from './PopularService/PopularService';
 import AppDownload from './AppDownload/AppDownload';
 import FrequentlyAskedQuestion from './FrequentlyAskedQuestion/FrequentlyAskedQuestion';
 import Testimonial from './Testimonial/Testimonial';
-export { Hero, Navbar, Footer, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion, Testimonial };
+import ExclusiveStore from './ExclusiveStore/ExclusiveStore';
+import Subscribe from './Subscribe/Subscribe';
+import Guarantee from './Guarantee/Guarantee';
+export { Hero, Navbar, Footer, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion, Testimonial, ExclusiveStore, Subscribe, Guarantee };

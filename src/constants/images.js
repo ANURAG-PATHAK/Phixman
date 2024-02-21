@@ -13,6 +13,8 @@ import tvRepair from '../assets/tvRepair.png'
 import iphone from '../assets/iphone.png'
 import googleplay from '../assets/googleplay.png';
 import appstore from '../assets/appstore.png';
+import store from '../assets/store.png';
+import subscriptionImage from '../assets/subscriptionImage.png';
 const images = {
     logo,
     heroImage,
@@ -28,7 +30,9 @@ const images = {
     tvRepair,
     iphone,
     googleplay,
-    appstore
+    appstore,
+    store,
+    subscriptionImage
 };
 
 export default images;

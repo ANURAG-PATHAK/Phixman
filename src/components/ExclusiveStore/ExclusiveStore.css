@@ -1,0 +1,73 @@
+/* ExclusiveStore.css */
+.exclusive-stores-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.store-card {
+    font-family: Arial, sans-serif;
+    /* or the font-family of your choice */
+    background-color: white;
+    border-radius: 8px;
+    width: 320px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    /* Adjust or remove this as needed for your layout */
+}
+
+.store-image-wrapper {
+    position: relative;
+    line-height: 0;
+    /* remove extra space below image */
+}
+
+.store-image {
+    padding: 10px;
+    width: 94%;
+    display: block;
+    border-radius: 10px;
+}
+
+.store-content {
+    padding: 16px;
+}
+
+.store-title {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.store-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.store-details-button {
+    align-self: flex-end;
+}
+
+/* Add a wrapper for image overlay if needed - not shown in the given JSX */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Dark overlay */
+}
