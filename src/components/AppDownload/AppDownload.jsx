@@ -1,4 +1,3 @@
-// AppDownloadSection.js
 import React from 'react';
 import './AppDownload.css';
 import { images } from '../../constants';
@@ -20,7 +19,6 @@ function AppDownload() {
           <img src={images.appstore} alt="App Store"/>
         </div>
       </div>
-      {/* Please include your actual iPhone image with appropriate src */}
       <div className="iphone-image">
         <img src={images.iphone} alt="iPhone app screenshot" />
       </div>

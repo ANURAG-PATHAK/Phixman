@@ -33,7 +33,10 @@ const Hero = () => {
       <div className="search-bar">
         <select name="cities" id="cities">
           <option value="delhi">Delhi</option>
-          {/* Add more options here */}
+          <option value="delhi">Mumbai</option>
+          <option value="delhi">Lucknow</option>
+          <option value="delhi">Agra</option>
+
         </select>
         <input type="text" placeholder="search service..." />
         <button className="button-search">Go For It</button>

@@ -1,14 +1,6 @@
 import React from "react";
 import "./PopularService.css";
-
-// Placeholder for images source.
-// You need to replace these with your actual image paths or URLs.
-const images = {
-  service1: "path-to-service1-image.jpg",
-  service2: "path-to-service2-image.jpg",
-  service3: "path-to-service3-image.jpg",
-  // ... other images
-};
+import { images } from "../../constants";
 
 const ServiceCard = ({ title, price, originalPrice, rating, image }) => (
   <div className="service-card">
@@ -38,16 +30,15 @@ const PopularService = () => (
         price="₹599"
         originalPrice="₹699"
         rating="4.5 (2K)"
-        image={images.service1}
+        image={images.ac}
       />
       <ServiceCard
         title="OnePlus 9R 5G - Refurbished"
         price="₹19,399"
         originalPrice="₹39,000"
         rating="4.5 (2K)"
-        image={images.service2}
+        image={images.mobile}
       />
-      {/* Add more ServiceCard components as needed */}
     </div>
     <div className="popular-service">
       <div className="scroller">
@@ -59,7 +50,6 @@ const PopularService = () => (
         <span className="dot-icon">•</span>
         <span className="text-item">Smartwatch</span>
         <span className="dot-icon">•</span>
-        {/* Repeat the items to allow a continuous scrolling effect */}
         <span className="text-item">Air Conditioner</span>
         <span className="dot-icon">•</span>
         <span className="text-item">Refrigerator</span>

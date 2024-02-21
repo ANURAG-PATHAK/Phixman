@@ -42,7 +42,6 @@ const Footer = () => {
               <li>About Us</li>
               <li>Careers</li>
               <li>Contact Us</li>
-              {/* Additional items */}
             </ul>
           </div>
           <div className="link-group">
@@ -51,7 +50,6 @@ const Footer = () => {
               <li>Stores</li>
               <li>Terms & Conditions</li>
               <li>Privacy Policy</li>
-              {/* Additional items */}
             </ul>
           </div>
         </div>
@@ -59,7 +57,6 @@ const Footer = () => {
       <div className="footer-bar">
         <div className="secured-payment">
           <span>Secured Payment</span>
-          {/* Icons from an external source such as FontAwesome can be used here */}
         </div>
         <div className="copy-social">
           <span>© Copyright Phixman Technologies Pvt. Ltd.</span>

@@ -13,14 +13,12 @@
 
 .navbar-logo img {
     height: 50px;
-    /* Adjust according to your logo's aspect ratio */
     margin-right: 10px;
 }
 
 .navbar-logo-text {
     font-size: 1.5em;
-    color: #E40046;
-    /* Your brand color */
+    color: #000;
     font-weight: bold;
 }
 

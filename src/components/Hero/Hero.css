@@ -39,11 +39,6 @@
     margin-top: 20px;
     cursor: pointer;
 }
-
-/* Add additional styling according to your design needs */
-/* For example, styles for the carousel, search bar, footer, etc. */
-
-/* React-slick default dots */
 .slick-dots {
     bottom: -45px;
 }
@@ -52,8 +47,6 @@
     font-size: 12px;
     color: #0052cc;
 }
-
-/* Continue styling your components here */
 
 .search-bar {
     position: absolute;

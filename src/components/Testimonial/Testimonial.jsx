@@ -64,7 +64,6 @@ const Testimonial = () => {
       author: "Samantha Iyer",
       image: images.profileImage,
     },
-    // ... Repeat for 4 testimonials or as many as needed
   ];
 
   return (

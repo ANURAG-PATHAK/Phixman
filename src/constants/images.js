@@ -15,6 +15,24 @@ import googleplay from '../assets/googleplay.png';
 import appstore from '../assets/appstore.png';
 import store from '../assets/store.png';
 import subscriptionImage from '../assets/subscriptionImage.png';
+import bike from '../assets/bike.png'
+import chimney from '../assets/chimney.png'
+import drone from '../assets/drone.png'
+import fridge from '../assets/fridge.png'
+import motherboard from '../assets/motherboard.png'
+import priceImage from '../assets/priceImage.png'
+import printer from '../assets/printer.png'
+import products from '../assets/products.png'
+import waterCooler from '../assets/waterCooler.png'
+import worker from '../assets/worker.png'
+import warranty from '../assets/warranty.png'
+import washingMachine from '../assets/washingMachine.png'
+import mobile from '../assets/mobile.png'
+import ac from '../assets/ac.png'
+import kolkata from '../assets/kolkata.png'
+import genuineImage from '../assets/genuineImage.png'
+import geyser from '../assets/geyser.png'
+import more from '../assets/more.png'
 const images = {
     logo,
     heroImage,
@@ -25,6 +43,7 @@ const images = {
     lucknow,
     mumbai,
     pune,
+    priceImage,
     laptopRepair,
     mobileRepair,
     tvRepair,
@@ -32,7 +51,24 @@ const images = {
     googleplay,
     appstore,
     store,
-    subscriptionImage
+    subscriptionImage,
+    genuineImage,
+    bike,
+    geyser,
+    more,
+    chimney,
+    drone,
+    fridge,
+    motherboard,
+    printer,
+    products,
+    waterCooler,
+    worker,
+    warranty,
+    washingMachine,
+    mobile,
+    ac,
+    kolkata
 };
 
 export default images;

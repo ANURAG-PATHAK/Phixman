@@ -1,4 +1,3 @@
-/* AppDownloadSection.css */
 .app-download-section {
     display: flex;
     align-items: center;
@@ -53,9 +52,7 @@
 }
 
 .iphone-image {
-    /* Adjust the styles below according to your actual image */
     width: 400px;
-    /* Width of your actual image */
 }
 
 .iphone-image img {

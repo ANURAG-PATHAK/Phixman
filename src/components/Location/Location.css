@@ -1,60 +1,48 @@
-/* Components/LocationSection.css */
 .location-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     background-color: #eceff1;
-    /* Adjust the color to match the design */
 }
 
 .info {
     flex-basis: 40%;
-    /* Adjust as needed */
     padding: 20px;
     background: #6c5ce7;
-    /* Adjust the color to match the design */
-    /* Add additional styling for background patterns if needed */
 }
 
 .info-text {
     color: white;
-    /* Add additional styling for typography if needed */
 }
 
 .locations {
-    flex-basis: 60%;
-    /* Adjust as needed */
+    flex-basis: 40%;
     text-align: center;
 }
 
 .location-cards {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    /* Adjust minmax values as needed */
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     gap: 20px;
 }
 
 .location-card {
     padding: 15px;
     background-color: #fff;
-    /* Adjust the color to match the design */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    /* Adjust shadow as needed */
     border-radius: 10px;
-    /* Adjust radius as needed */
 }
 
 .location-card img {
     width: 50px;
-    /* Adjust size as needed */
     margin-bottom: 10px;
 }
 
 .location-name {
     color: #333;
-    /* Adjust the color to match the design */
-    /* Add additional styling for typography if needed */
 }
 
 .location-search-bar {
@@ -65,25 +53,19 @@
     padding: 10px;
     margin-right: 10px;
     border: 1px solid #ccc;
-    /* Adjust color as needed */
     border-radius: 5px;
-    /* Adjust radius as needed */
 }
 
 .location-search-bar button {
     padding: 10px 20px;
     background-color: #e74c3c;
-    /* Adjust the color to match the design */
     color: white;
     border: none;
     border-radius: 5px;
-    /* Adjust radius as needed */
     cursor: pointer;
 }
 
 .footer-text {
     margin-top: 30px;
     color: #333;
-    /* Adjust the color to match the design */
-    /* Add additional styling for typography if needed */
 }

@@ -1,15 +1,15 @@
-// Service.jsx
 import React from "react";
 import "./Service.css";
+import { images } from "../../constants";
 
 const services = [
-  { id: 1, name: "Mobile Repair", icon: "🛠️" },
-  { id: 2, name: "Laptop Repair", icon: "💻" },
-  { id: 3, name: "Printer Repair", icon: "🖨️" },
-  { id: 4, name: "Air Cooler", icon: "❄️" },
-  { id: 5, name: "Geyser", icon: "⚡" },
-  { id: 6, name: "Chimney Repair", icon: "🔥" },
-  { id: 7, name: "More", icon: "➕" },
+  { id: 1, name: "Mobile Repair", image: images.mobileRepair },
+  { id: 2, name: "Laptop Repair", image: images.laptopRepair },
+  { id: 3, name: "Printer Repair", image: images.printer },
+  { id: 4, name: "Air Cooler", image: images.waterCooler },
+  { id: 5, name: "Geyser", image: images.geyser },
+  { id: 6, name: "Chimney Repair", image: images.chimney },
+  { id: 7, name: "More", image: images.more },
 ];
 
 const Service = () => {
@@ -29,7 +29,7 @@ const Service = () => {
       <div className="services-list">
         {services.map((service) => (
           <div key={service.id} className="service-item">
-            <div className="service-icon">{service.icon}</div>
+            <img src={service.image} alt="" className="service-icon" />
             <div className="service-name">{service.name}</div>
           </div>
         ))}

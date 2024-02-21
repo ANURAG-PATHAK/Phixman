@@ -2,6 +2,7 @@ import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import "./FrequentlyAskedQuestion.css";
 
+
 const FrequentlyAskedQuestion = () => {
   return (
     <div className="faq-section">

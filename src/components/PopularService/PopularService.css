@@ -75,17 +75,12 @@
     margin-left: 50px;
     margin-right: 50px;
     font-size: 20px;
-    /* Adjust font size as necessary */
 }
 
 .dot-icon {
     margin-left: 5px;
-    /* Space after text before dot */
     font-size: 25px;
-    /* Adjust dot size as necessary */
 }
-
-/* Keyframes for scrolling text */
 @keyframes scroll-text {
     0% {
         transform: translateX(100%);
