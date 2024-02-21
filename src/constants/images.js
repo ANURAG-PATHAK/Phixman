@@ -35,9 +35,11 @@ import geyser from '../assets/geyser.png'
 import more from '../assets/more.png'
 import serviceImage from '../assets/serviceImage.png'
 import payment from '../assets/payment.png'
+import india from '../assets/india.png'
 const images = {
     logo,
     payment,
+    india,
     serviceImage,
     heroImage,
     oven,

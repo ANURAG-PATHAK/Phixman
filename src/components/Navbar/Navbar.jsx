@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
-import { FaShoppingCart, FaMapMarkedAlt } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 import "./Navbar.css";
 import { images } from "../../constants";
 const Navbar = () => {
@@ -20,8 +20,8 @@ const Navbar = () => {
           More <IoIosArrowDown />
         </div>
         <div className="navbar-item">
-          <FaMapMarkedAlt />
-          <span>India</span>
+          <img src={images.india} alt="" />
+          <span>INDIA</span>
         </div>
         <div className="navbar-cart">
           <FaShoppingCart />
