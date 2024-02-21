@@ -33,8 +33,12 @@ import kolkata from '../assets/kolkata.png'
 import genuineImage from '../assets/genuineImage.png'
 import geyser from '../assets/geyser.png'
 import more from '../assets/more.png'
+import serviceImage from '../assets/serviceImage.png'
+import payment from '../assets/payment.png'
 const images = {
     logo,
+    payment,
+    serviceImage,
     heroImage,
     oven,
     acRepair,

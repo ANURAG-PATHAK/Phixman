@@ -10,4 +10,5 @@ import Testimonial from './Testimonial/Testimonial';
 import ExclusiveStore from './ExclusiveStore/ExclusiveStore';
 import Subscribe from './Subscribe/Subscribe';
 import Guarantee from './Guarantee/Guarantee';
-export { Hero, Navbar, Footer, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion, Testimonial, ExclusiveStore, Subscribe, Guarantee };
+import HowItWorks from './HowItWorks/HowItWorks';
+export { Hero, Navbar, Footer, Service, Location, PopularService, AppDownload, FrequentlyAskedQuestion, Testimonial, ExclusiveStore, Subscribe, Guarantee, HowItWorks };

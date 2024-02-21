@@ -1,0 +1,44 @@
+.how-it-works {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.how-it-works-header h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.how-it-works-header p {
+    color: #666;
+    font-size: 16px;
+}
+
+.steps-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.step {
+    text-align: center;
+    padding: 16px;
+}
+
+.step img {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.step h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.step p {
+    color: #666;
+    font-size: 14px;
+}
