@@ -1,0 +1,55 @@
+/* Service.css */
+.service-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services-header {
+    margin-bottom: 40px;
+}
+
+.services-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.services-title-accent {
+    color: red;
+    margin-right: 8px;
+}
+
+.services-description {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 220px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-icon {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-name {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Add media queries for responsiveness, if necessary */

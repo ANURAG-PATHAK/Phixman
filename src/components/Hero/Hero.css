@@ -1,0 +1,54 @@
+/* Hero.css */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.carousel-item {
+    flex: 1;
+    width: 100%;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.input-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-select,
+.service-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-btn {
+    background-color: #E40046;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}

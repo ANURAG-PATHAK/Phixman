@@ -1,0 +1,43 @@
+/* FAQSection.css */
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.faq-section-title {
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.faq-title-bar {
+    color: red;
+    margin-right: 10px;
+}
+
+.faq-section-description {
+    margin-bottom: 40px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.faq-arrow {
+    font-size: 1.5em;
+    /* Adjust size as necessary */
+}
+
+/* Rest of the CSS remains the same as before */
